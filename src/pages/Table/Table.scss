@@ -1,0 +1,48 @@
+.table_page {
+  display: flex;
+  background-color: #f6f5fa;
+  padding: 1.5rem;
+  main {
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 768px) {
+  .table_page {
+    padding: 1rem;
+    main {
+      width: 100%;
+      margin-left: 0;
+      #header {
+        margin: 4rem 0 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .table_page {
+    main {
+      width: 80%;
+      margin-left: 2%;
+      min-width: 0;
+      #header {
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .table_page {
+    main {
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .table_page {
+    main {
+    }
+  }
+}

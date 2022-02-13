@@ -1,0 +1,27 @@
+.table_page {
+  display: flex;
+  background-color: #f6f5fa;
+  padding: 1.5rem;
+}
+@media screen and (max-width: 768px) {
+  .table_page {
+    padding: 1rem;
+  }
+  .table_page main {
+    width: 100%;
+    margin-left: 0;
+  }
+  .table_page main #header {
+    margin: 4rem 0 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .table_page main {
+    width: 80%;
+    margin-left: 2%;
+    min-width: 0;
+  }
+  .table_page main #header {
+    margin: 1rem 0;
+  }
+}/*# sourceMappingURL=Table.css.map */

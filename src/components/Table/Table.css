@@ -1,0 +1,111 @@
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+  width: 100%;
+  text-align: left;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table table thead tr th {
+  color: #14213d;
+  font-size: 0.95rem;
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+.table table thead tr th:first-of-type {
+  padding-left: 1rem;
+}
+.table table tbody tr td {
+  color: #434d64;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eeecf6;
+  font-size: 0.85rem;
+}
+.table table tbody tr .employee {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+.table table tbody tr .employee img {
+  width: 2.5rem;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.table table tbody tr .employee div {
+  margin-left: 0.5rem;
+}
+.table table tbody tr .employee div h2 {
+  font-size: 0.8rem;
+  color: #434d64;
+  font-weight: 500;
+}
+.table table tbody tr .employee div p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #727a8b;
+}
+.table table tbody tr .employee .profile_img {
+  width: 2.5rem;
+  height: 2.5rem;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: #5141a4;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-left: 0;
+}
+.table table tbody tr .employee .profile_img:first-of-type {
+  background-color: #00b295;
+}
+.table table tbody tr .employee .profile_img:last-of-type {
+  background-color: #d6a2ad;
+}
+.table table tbody tr button {
+  border-radius: 4px;
+  min-height: 40px;
+  background-color: transparent;
+  padding: 0.4rem 1rem;
+  color: #5141a4;
+  border: 1px solid #a1a6b1;
+}
+.table table tbody tr .dot {
+  background: #f04c4c;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50px;
+  display: inline-block;
+  margin-right: 0.8rem;
+}
+.table table tbody tr:first-of-type {
+  border-top: 1px solid #a1a6b1;
+}
+.table table tbody tr .date_cell {
+  color: #727a8b;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+  .table table thead tr th {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .table table tbody tr td {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .table table tbody tr .employee div p {
+    font-size: 0.65rem;
+  }
+}/*# sourceMappingURL=Table.css.map */

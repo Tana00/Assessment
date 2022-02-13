@@ -1,0 +1,141 @@
+export const cardData = [
+  {
+    id: 1,
+    name: "HydrogenHR",
+    date: "July, 2021",
+    title: "Staying Productive",
+    content:
+      "Revamping the web application. Assignees are to thoroughly go through our content in or... ",
+    assignee: "Management",
+    color: "#F04C4C",
+  },
+  {
+    id: 2,
+    name: "HydrogenHR",
+    title: "Frist Bank Project",
+    date: "Jan, 2021",
+    content:
+      "The partnership between hydrogenHR and First Bank of Nigeria to revamp her new human...",
+    assignee: "Global",
+    color: "#5141A4",
+  },
+  {
+    id: 3,
+    name: "Katie Middleman",
+    title: "Staying Productive",
+    date: "July, 2021",
+    content:
+      "A daily routine for employees introduced by Declan Maine at his first speech @ Hydrogen HR...",
+    assignee: "Health & Wellness",
+    color: "#0581F3",
+  },
+  {
+    id: 4,
+    name: "HydrogenHR",
+    title: "Staying Productive",
+    date: "July, 2021",
+    content:
+      "Revamping the web application. Assignees are to thoroughly go through our content in or... ",
+    assignee: "Management",
+    color: "#F04C4C",
+  },
+  {
+    id: 5,
+    name: "HydrogenHR",
+    title: "Frist Bank Project",
+    date: "Jan, 2021",
+    content:
+      "The partnership between hydrogenHR and First Bank of Nigeria to revamp her new human...",
+    assignee: "Global",
+    color: "#5141A4",
+  },
+  {
+    id: 6,
+    name: "Katie Middleman",
+    title: "Staying Productive",
+    date: "July, 2021",
+    content:
+      "A daily routine for employees introduced by Declan Maine at his first speech @ Hydrogen HR...",
+    assignee: "Health & Wellness",
+    color: "#0581F3",
+  },
+  {
+    id: 7,
+    name: "HydrogenHR",
+    title: "Staying Productive",
+    date: "July, 2021",
+    content:
+      "Revamping the web application. Assignees are to thoroughly go through our content in or... ",
+    assignee: "Management",
+    color: "#F04C4C",
+  },
+];
+
+export const TableData = {
+  head: ["Employee", "File Name", "Category", "Last Modified", "Action"],
+  body: [
+    {
+      id: 1,
+      name: "James Hadish",
+      title: "Designer",
+      date: "Jan 10, 22 at 10:45 AM",
+      file_name: "Staying Productive",
+      category: "Health and Wellness",
+      color: "#0581F3",
+    },
+    {
+      id: 2,
+      name: "Jane Doe",
+      title: "Software Engr.",
+      file_name: "Staying Productive",
+      date: "Jan 10, 22 at 10:45 AM",
+      category: "Health & Wellness",
+      color: "#0581F3",
+    },
+    {
+      id: 3,
+      name: "James Hadish",
+      title: "Frist Bank Project",
+      file_name: "Staying Productive",
+      date: "Jan 10, 22 at 10:45 AM",
+      category: "Global",
+      color: "#5141A4",
+    },
+    {
+      id: 4,
+      name: "James Hadish",
+      title: "Designer",
+      file_name: "Staying Productive",
+      date: "Jan 10, 22 at 10:45 AM",
+      category: "Management",
+      color: "#F04C4C",
+    },
+    {
+      id: 5,
+      name: "Jane Doe",
+      title: "Software Engr.",
+      date: "Jan 10, 22 at 10:45 AM",
+      file_name: "Staying Productive",
+      category: "Health and Wellness",
+      color: "#0581F3",
+    },
+    {
+      id: 6,
+      name: "James Hadish",
+      title: "Designer",
+      file_name: "Staying Productive",
+      date: "Jan 10, 22 at 10:45 AM",
+      category: "Health & Wellness",
+      color: "#0581F3",
+    },
+    {
+      id: 7,
+      name: "James Hadish",
+      file_name: "Staying Productive",
+      title: "Designer",
+      date: "Jan 10, 22 at 10:45 AM",
+      category: "Management",
+      color: "#F04C4C",
+    },
+  ],
+};

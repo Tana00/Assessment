@@ -1,0 +1,105 @@
+.header {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.2rem 1.2rem 0.8rem 1.2rem;
+  position: relative;
+}
+.header .header_left {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.header .header_left h2 {
+  color: #14213d;
+  font-size: 1.1rem;
+}
+.header .header_left div {
+  display: flex;
+  align-items: center;
+}
+.header .header_left div select {
+  border: 1px solid #d0d3d8;
+  color: #727a8b;
+  min-height: 40px;
+  border-radius: 4px;
+}
+.header .header_left div button {
+  border-radius: 4px;
+  min-height: 40px;
+  background-color: #5141a4;
+  padding: 0.4rem 1rem;
+  color: #fff;
+  border: none;
+}
+.header .header_right .header_right_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header_right .header_right_item .display {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header .header_right .header_right_item .display img {
+  margin: 0 1rem;
+}
+.header .header_right .header_right_item .display .divider {
+  height: 22px;
+  border-right: 1px solid #d0d3d8;
+  position: absolute;
+}
+.header .header_right .header_right_item p {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #5141a4;
+}
+.header .header_right .header_right_item .line {
+  position: absolute;
+  bottom: 0;
+  left: 1.1rem;
+  width: 2.8rem;
+  height: 2px;
+  background-color: #5141a4;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 1rem 1rem 0.8rem 1rem;
+  }
+  .header .header_left {
+    display: block;
+  }
+  .header .header_left div {
+    margin: 1rem 0;
+    justify-content: space-between;
+  }
+  .header .header_left div select {
+    padding: 0.4rem 1.8rem;
+    width: 65%;
+  }
+  .header .header_left div button {
+    font-size: 0.7rem;
+  }
+  .header .header_right .header_right_item img:last-of-type {
+    margin-right: 0;
+  }
+  .header .header_right .header_right_item .display .divider {
+    right: 40%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header .header_left {
+    display: flex;
+  }
+  .header .header_left div select {
+    padding: 0.4rem 1rem;
+  }
+  .header .header_left div button {
+    margin-left: 1rem;
+    font-size: 0.8rem;
+  }
+  .header .header_right .header_right_item .display .divider {
+    right: 50%;
+  }
+}/*# sourceMappingURL=Header.css.map */

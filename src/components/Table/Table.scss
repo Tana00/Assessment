@@ -1,0 +1,134 @@
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem 0;
+  width: 100%;
+  text-align: left;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      tr {
+        th {
+          color: #14213d;
+          font-size: 0.95rem;
+          text-align: left;
+          padding-bottom: 1.5rem;
+        }
+        th:first-of-type {
+          padding-left: 1rem;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          color: #434d64;
+          padding: 1rem 0;
+          border-bottom: 1px solid #eeecf6;
+          font-size: 0.85rem;
+        }
+        .employee {
+          display: flex;
+          align-items: center;
+          padding-left: 1rem;
+          img {
+            width: 2.5rem;
+            height: auto;
+            object-fit: contain;
+          }
+          div {
+            margin-left: 0.5rem;
+            h2 {
+              font-size: 0.8rem;
+              color: #434d64;
+              font-weight: 500;
+            }
+            p {
+              font-size: 0.8rem;
+              font-weight: 400;
+              color: #727a8b;
+            }
+          }
+          .profile_img {
+            width: 2.5rem;
+            height: 2.5rem;
+            object-fit: contain;
+            background-color: #5141a4;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-left: 0;
+            &:first-of-type {
+              background-color: #00b295;
+            }
+            &:last-of-type {
+              background-color: #d6a2ad;
+            }
+          }
+        }
+        button {
+          border-radius: 4px;
+          min-height: 40px;
+          background-color: transparent;
+          padding: 0.4rem 1rem;
+          color: #5141a4;
+          border: 1px solid #a1a6b1;
+        }
+        .dot {
+          background: #f04c4c;
+          width: 1rem;
+          height: 1rem;
+          border-radius: 50px;
+          display: inline-block;
+          margin-right: 0.8rem;
+        }
+        &:first-of-type {
+          border-top: 1px solid #a1a6b1;
+        }
+        .date_cell {
+          color: #727a8b;
+          letter-spacing: -0.01em;
+        }
+      }
+    }
+  }
+}
+
+// Media Queries
+@media (max-width: 768px) {
+  .table {
+    table {
+      thead {
+        tr {
+          th {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+          }
+          .employee {
+            div {
+              p {
+                font-size: 0.65rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

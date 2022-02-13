@@ -1,0 +1,52 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topbar .topbar_left,
+.topbar .topbar_right {
+  display: flex;
+  align-items: center;
+}
+.topbar .topbar_left {
+  width: 33%;
+  justify-content: space-between;
+}
+.topbar .topbar_left .breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+.topbar .topbar_left .breadcrumbs p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #727a8b;
+  margin: 0 0.8rem;
+}
+.topbar .topbar_left .breadcrumbs p:last-of-type {
+  color: #5141a4;
+}
+.topbar .topbar_right {
+  width: 60%;
+  justify-content: flex-end;
+}
+.topbar .topbar_right .topbar_right_item {
+  display: flex;
+  align-items: center;
+}
+.topbar .topbar_right .topbar_right_item img:first-of-type {
+  margin-right: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .topbar {
+    position: relative;
+  }
+  .topbar .topbar_left .breadcrumbs {
+    position: absolute;
+    top: 4rem;
+    bottom: 0;
+  }
+  .topbar .topbar_left .breadcrumbs p:first-of-type {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=Topbar.css.map */

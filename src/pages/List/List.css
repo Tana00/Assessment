@@ -1,0 +1,45 @@
+.list_page {
+  display: flex;
+  background-color: #f6f5fa;
+  padding: 1.5rem;
+}
+.list_page main section.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .list_page {
+    padding: 1rem;
+  }
+  .list_page main {
+    width: 100%;
+    margin-left: 0;
+  }
+  .list_page main #header {
+    margin: 4rem 0 1rem;
+  }
+  .list_page main section.grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (min-width: 768px) {
+  .list_page main {
+    width: 80%;
+    margin-left: 2%;
+    min-width: 0;
+  }
+  .list_page main #header {
+    margin: 1rem 0;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .list_page main section.grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .list_page main section.grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=List.css.map */

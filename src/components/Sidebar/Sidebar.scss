@@ -1,0 +1,30 @@
+.sidebar {
+  width: fit-content;
+  background-color: #110c35;
+  padding: 3rem 1.6rem 1rem 1.6rem;
+  border-radius: 8px;
+  .list {
+    margin: 3.5rem 0 0;
+    .list_item {
+      background: #434d64;
+      opacity: 0.3;
+      border-radius: 8px;
+      width: 229px;
+      height: 27px;
+      margin: 1rem 0;
+    }
+  }
+}
+
+// Media Queries
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
