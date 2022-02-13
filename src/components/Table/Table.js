@@ -3,6 +3,7 @@ import Profile from "../../images/profile.png";
 import "./Table.scss";
 
 const Table = ({ headData, bodyData }) => {
+  // Function to get name initials
   const getInitials = (fullName) => {
     const allNames = fullName.trim().split(" ");
     const initials = allNames.reduce((acc, curr, index) => {
@@ -17,6 +18,7 @@ const Table = ({ headData, bodyData }) => {
   return (
     <div className="table">
       <table>
+        {/* Table Head */}
         <thead>
           <tr>
             {headData.map((item, index) => (
@@ -24,6 +26,7 @@ const Table = ({ headData, bodyData }) => {
             ))}
           </tr>
         </thead>
+        {/* Table body */}
         <tbody>
           {bodyData.map(
             ({ name, file_name, color, category, title, date }, index) => (

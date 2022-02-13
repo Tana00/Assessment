@@ -3,6 +3,8 @@
   background: #ffffff;
   border-radius: 8px;
   padding: 1rem;
+
+  //   Card Header
   .card_header {
     display: flex;
     align-items: center;
@@ -24,6 +26,7 @@
     }
   }
 
+  //   Card Body
   .card_content {
     text-align: start;
     margin: 1.2rem 0;
@@ -43,6 +46,8 @@
     border: 1px solid #eeecf6;
     margin: 1rem 0;
   }
+
+  //   Card Footer
   .card_footer {
     display: flex;
     align-items: center;
